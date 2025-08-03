@@ -249,56 +249,56 @@ footer {
 }
 
 @media (max-width: 768px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            h2 {
-                font-size: 1.2rem;
-            }
-            
-            .nav-container {
-                flex-wrap: wrap;
-            }
-            
-            .nav-link {
-                padding: 0.5rem 1rem;
-                margin: 0.25rem;
-            }
-            
-            .about-content {
-                flex-direction: column;
-            }
-        }
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .nav-container {
+        flex-wrap: wrap;
+    }
+    
+    .nav-link {
+        padding: 0.5rem 1rem;
+        margin: 0.25rem;
+    }
+    
+    .about-content {
+        flex-direction: column;
+    }
+}
 
-        @media (max-width: 480px) {
-            .section-title {
-                font-size: 1.8rem;
-            }
-            
-            .skills-container {
-                grid-template-columns: 1fr;
-            }
-            
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-bottom: 1rem;
-        }
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
 
-        .social-links a {
-            color: var(--parchment);
-            font-size: 1.5rem;
-            transition: transform 0.3s ease, color 0.3s ease;
-        }
+.social-links a {
+    color: var(--parchment);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 
-        .social-links a:hover {
-            color: var(--italy-red);
-            transform: translateY(-3px);
-        }
+.social-links a:hover {
+    color: var(--italy-red);
+    transform: translateY(-3px);
+}
